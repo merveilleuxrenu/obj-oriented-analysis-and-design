@@ -18,10 +18,9 @@ public class Generator {
     // randomNumberGenerators
     ArrayList<Double> populate(int n, int randNumGen) {
         
-        // your code here
         ArrayList<Double> random = new ArrayList<Double>();
 
-        // examples of talking to the random number generators
+        // talking to the random number generators
         Random rand = new Random();
         double rv = 0.0;
         // random number generator imported from Java.util
@@ -38,7 +37,7 @@ public class Generator {
             random.add(rv);
         }
 
-        return random; // you need to return the ArrayList of n random values
+        return random; // return the ArrayList of n random values
     }
  
     // calculates mean, sample standard deviation, minimum, and maximum
@@ -59,7 +58,7 @@ public class Generator {
         arr.add(std(arr, n, mean));
         arr.add(Collections.max(arr));
         arr.add(Collections.min(arr));
-        return arr; // you need to return the ArrayList of five results
+        return arr; // return the ArrayList of five results
     }
 
     double std(ArrayList<Double> rv, int size, double mean)
@@ -74,10 +73,9 @@ public class Generator {
         
 
     // displays the ArrayList of five result values in a tabular fashion in the
-    // system console (see output example)
+    // system console 
     void display(ArrayList<Double> results, boolean headerOn) {
-        // your code here
-        // see reading for output example
+       
         if (headerOn) {
             System.out.printf("%-10s%-15s%-15s%-15s%-15s\n", "n", "Mean", "StdDev", "Min", "Max");
         }
