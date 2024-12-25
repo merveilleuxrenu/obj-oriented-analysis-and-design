@@ -5,11 +5,7 @@ import java.util.concurrent.ThreadLocalRandom;
 import java.util.ArrayList;
 import java.util.Collections;
 
-/*
- * Your solution for OOAD Course 1 Project 1
- * Renuka S
- * 25-12-2024
- */
+
 
 public class Generator {
     // main for Generator
